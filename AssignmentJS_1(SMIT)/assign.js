@@ -79,31 +79,52 @@
 // Q5) Write a JavaScript Program which computes the average marks of the following students Then, 
 // this average is used to determine the corresponding grade?
 
-let studentsMarks = prompt("Enter Your Number To Find a Grade:");
+// let studentsMarks = prompt("Enter Your Marks To Find a Grade:");
 
-let AvgMarks = 1;
+// if (studentsMarks < 60){
+//     console.log("Your Marks is = " + studentsMarks);
+//     console.log("Your Grade : F");      
+// } 
+// else if (studentsMarks < 70) {
+//     console.log("Your Marks is = " + studentsMarks);
+//     console.log("Your Grade : D"); 
+// } 
+// else if (studentsMarks < 80) {
+//     console.log("Your Marks is = " + studentsMarks);
+//     console.log("Your Grade : C"); 
+// } 
+// else if (studentsMarks < 90) {
+//     console.log("Your Marks is = " + studentsMarks);
+//     console.log("Your Grade : B"); 
+// } 
+// else if (studentsMarks < 100) {
+//     console.log("Your Marks is = " + studentsMarks);
+//     console.log("Your Grade : A");    
+// }
 
-for (var i=0; i <studentsMarks.length; i++) {
-        AvgMarks += studentsMarks[i];
-        var avg = (AvgMarks/studentsMarks.length);
-}
+// let AvgMarks = 1;
 
-console.log(`Average Marks: ${(AvgMarks) / studentsMarks.length}`);
+// for (var i=0; i <studentsMarks.length; i++) {
+//         AvgMarks += studentsMarks[i];
+//         var average = (AvgMarks/studentsMarks.length);
+// }
 
-        if (avg < 60){
-          console.log("Grade : F");      
-          } 
-        else if (avg < 70) {
-                console.log("Grade : D"); 
-                  } 
-        else if (avg < 80) 
-             {
-                console.log("Grade : C"); 
-        } else if (avg < 90) {
-                console.log("Grade : B"); 
-        } else if (avg < 100) {
-                console.log("Grade : A");    
-}
+// console.log(`Average Marks: ${(AvgMarks) / studentsMarks.length}`);
+
+//         if (average < 60){
+//           console.log("Grade : F");      
+//           } 
+//         else if (average < 70) {
+//                 console.log("Grade : D"); 
+//                   } 
+//         else if (average < 80) 
+//              {
+//                 console.log("Grade : C"); 
+//         } else if (average < 90) {
+//                 console.log("Grade : B"); 
+//         } else if (average < 100) {
+//                 console.log("Grade : A");    
+// }
 
 // Q6) Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three 
 // print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which 
